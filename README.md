@@ -37,7 +37,7 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 * Since total deaths was what we required, the groupby and max function was utilized to provide a total. 
 
-* Pymongo, the python driver for mongoDB, was utilized in Jupyter Notebook to facilitate the data load of both N.America and the individual state's data sets.
+* Pymongo, the python driver for mongoDB, was utilized in Jupyter Notebook to facilitate the data load of both N.America and the individual state's datasets.
 
 <h2 style="color:#87CEEB">Load</h2>
 
