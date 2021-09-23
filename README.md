@@ -29,7 +29,7 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 * Due to the amount of columns and information I had to choose the specific columns we wanted to focus on per state. 
 
-* This included on table on the vaccine distributions per state as well as the hospital capacity per state.
+* This included one table on the vaccine distributions per state as well as the hospital capacity per state.
 
 <h3 style="color:#FFFFFF">OurWorldInData:</h3>
 
@@ -43,16 +43,6 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 ![Load](https://images.unsplash.com/photo-1586108370625-70458e754bfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80)
 
-![ERD](Visualizations/Capture.PNG)
-
-<h3 style="color:#FFFFFF">Matthew's Loading Process: </h3>
-
-* After cleaning the data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
-
-* I then loaded this into SQLlite and got was able to extract the create table information to load into PGadmin.
-
-* After creating the tables in PGadmin I created the ERD above. One thing I noticed was that the value of the columns all read "text" but still worked.
-
 <h3 style="color:#FFFFFF">Darrell's Loading Process: </h3>
 
 * Extracted two related datasets detailing deaths attributed to Covid. North America data from a .csv and states in the U.S. death counts from a .json file. 
@@ -61,5 +51,20 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 * DFs were loaded in as collections into a MongoDB via pandas. Two main reasons for using mongoDB were: 1) Ease of Use (no schema) and 2) flexibility (well suited for   storing unstructured data). 
 
+![ERD](Visualizations/Capture.PNG)
+
+<h3 style="color:#FFFFFF">Matthew's Loading Process: </h3>
+
+* After cleaning the data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
+
+* I then loaded this into SQLlite and was able to extract the create table information to load into PGadmin.
+
+* After creating the tables in PGadmin I created the ERD above. One thing I noticed was that the value of the columns all read "text" but still worked.
+
 <h2 style="color:#87CEEB">Conclusion</h2>
 
+Through the Extract, Transform, and Load process we were able to get our data to a point that we could manipulate it in many different ways. We chose to take the data and compare hospitilzations to vaccine rates across the United States. The tables below illustrate that.
+
+![HospitalBed](Visualizations/Hospital_bed_table.PNG) ![Vaccine](Visualizations/Vaccine_table.PNG)
+
+As you can see from the above tables, the states with the highest vaccine rates also have the highest bed capacity. 
