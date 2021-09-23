@@ -23,11 +23,11 @@ Our second data set was sourced from <a href="https://covidactnow.org/?s=2326124
 
 <h3 style="color:#FFFFFF">CovidActNow:</h3>
 
-* 
+* Loaded in a dataset of the effect of COVID in specific states
 
-* 
+* Due to the amount of columns and information I had to choose the specific columns we wanted to focus on per state. 
 
-* 
+* This included on table on the vaccine distributions per state as well as the hospital capacity per state.
 
 <h2 style="color:#87CEEB">Load</h2>
 
@@ -37,11 +37,11 @@ Our second data set was sourced from <a href="https://covidactnow.org/?s=2326124
 
 <h3 style="color:#FFFFFF">Matthew's Loading Process: </h3>
 
-* 
+* After cleaning the data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
 
-* 
+* I then loaded this into SQLlite and got was able to extract the create table information to load into PGadmin.
 
-* 
+* After creating the tables in PGadmin I created the ERD above. One thing I noticed was that the value of the columns all read "text" but still worked.
 
 <h3 style="color:#FFFFFF">Darrell's Loading Process: </h3>
 
