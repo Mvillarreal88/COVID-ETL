@@ -10,7 +10,7 @@ We extracted three data sets from different sources. Our first data set from <a 
 
 Our second data set was sourced from <a href="https://covidactnow.org/?s=23261246" target="_blank" style="color:#DDA0DD">CovidActNow</a> which contains vaccination progress by states across the United States. We wanted to see how vaccination rates are effecting hospitalization rates.
 
-The third data set provided the number of COVID-19 deaths reported by individual states in the U.S. Current data was obtained in a .json file from <a href="https://ourworldindata.org/covid-deaths" target="_blank" style="color:#DDA0DD">OurWorldInData</a>.  
+The third dataset provided the number of COVID-19 deaths reported by individual states in the U.S. Current data was obtained in a .json file from <a href="https://ourworldindata.org/covid-deaths" target="_blank" style="color:#DDA0DD">OurWorldInData</a>.  
 
 
 <h2 style="color:#87CEEB">Transformation</h2>
@@ -59,6 +59,6 @@ The third data set provided the number of COVID-19 deaths reported by individual
 
 * Transformation consisted of creating DataFrames and performing standard column reduction and renaming and dropping NaN entries (dropna).   
 
-* DFs were loaded in as collections into a MongoDB via pandas. Two main reasons for this decision were: 1) Ease of Use (no schema) and 2) flexibility (well suited for   storing unstructured data). 
+* DFs were loaded in as collections into a MongoDB via pandas. Two main reasons for using mongoDB were: 1) Ease of Use (no schema) and 2) flexibility (well suited for   storing unstructured data). 
 
 <h2 style="color:#87CEEB">Conclusion</h2>
