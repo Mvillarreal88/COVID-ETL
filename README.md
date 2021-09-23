@@ -62,3 +62,4 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 * DFs were loaded in as collections into a MongoDB via pandas. Two main reasons for using mongoDB were: 1) Ease of Use (no schema) and 2) flexibility (well suited for   storing unstructured data). 
 
 <h2 style="color:#87CEEB">Conclusion</h2>
+
