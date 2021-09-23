@@ -68,4 +68,4 @@ Through the Extract, Transform, and Load process we were able to get our data to
 ![Hospital](Visualizations/Hospital.PNG)
 ![Vaccine](Visualizations/Vaccine_table.PNG)
 
-Our tables and data allow us to pull many different variations to compare in relation to COVID by state. The initial data has over 50 columns, we decided to focus specifically on vaccine rates by state as well as hospitalizations. But with the ETL we have completed we can query and work with multiple different columns.
+The tables above illistrate States that have a vaccine rate of over 40% as well as hospital bed capacity that is less than 5,000. Through our ETL process though we have many options and comparisons to make as our dataset has over 50 columns to extract. 
