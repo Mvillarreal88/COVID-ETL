@@ -33,7 +33,7 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 <h3 style="color:#FFFFFF">OurWorldInData:</h3>
 
-* Loaded .json dataset that kept a daily count of deaths attributed to covid in every state. 
+* Loaded .json dataset that kept a daily count of deaths attributed to COVID-19 in every state. 
 
 * Since total deaths was what we required, the groupby and max function was utilized to provide a total. 
 
