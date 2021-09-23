@@ -10,7 +10,7 @@ We extracted three data sets from different sources. Our first data set from <a 
 
 Our second data set was sourced from <a href="https://covidactnow.org/?s=23261246" target="_blank" style="color:#DDA0DD">CovidActNow</a> which contains vaccination progress by states across the United States. We wanted to see how vaccination rates are effecting hospitalization rates.
 
-The third data set provided the number of covid deaths reported by individual states and territories in the U.S. Realtime data was provided in a .json file by <a href="https://ourworldindata.org/covid-deaths" target="_blank" style="color:#DDA0DD">OurWorldInData</a>.  
+The third data set provided the number of covid deaths reported by individual states in the U.S. Realtime data was provided in a .json file by <a href="https://ourworldindata.org/covid-deaths" target="_blank" style="color:#DDA0DD">OurWorldInData</a>.  
 
 
 <h2 style="color:#87CEEB">Transformation</h2>
@@ -30,6 +30,14 @@ The third data set provided the number of covid deaths reported by individual st
 * Due to the amount of columns and information I had to choose the specific columns we wanted to focus on per state. 
 
 * This included on table on the vaccine distributions per state as well as the hospital capacity per state.
+
+<h3 style="color:#FFFFFF">OurWorldInData:</h3>
+
+* Loaded .json dataset that kept a daily count of deaths attributed to covid in every state. 
+
+* Since total deaths was what we required, the groupby and max function was utilized to provide a total. 
+
+* Pymongo, the python driver for mongoDB, was utilized in Jupyter Notebook to facilitate the data load of both N.America and the individual state's data sets.
 
 <h2 style="color:#87CEEB">Load</h2>
 
