@@ -55,7 +55,7 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 <h3 style="color:#FFFFFF">Matthew's Loading Process: </h3>
 
-* After cleaning the data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
+* After cleaning the states data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
 
 * I then loaded this into SQLlite and was able to extract the create table information to load into PGadmin.
 
@@ -67,4 +67,8 @@ Through the Extract, Transform, and Load process we were able to get our data to
 
 ![HospitalBed](Visualizations/Hospital_bed_table.PNG) ![Vaccine](Visualizations/Vaccine_table.PNG)
 
+<<<<<<< HEAD
 As you can see from the above tables, the states with the highest vaccine rates also have the highest bed capacity. 
+=======
+Our tables and data allow us to pull many different variations to compare in relation to COVID by state. The initial data has over 50 columns, we decided to focus specifically on vaccine rates by state as well as hospitalizations. But with the ETL we have completed we can query and work with multiple different columns.
+>>>>>>> 96498704d7d429d1a163ee2162716b1a295cf950
