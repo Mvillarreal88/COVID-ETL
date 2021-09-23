@@ -47,7 +47,7 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 <h3 style="color:#FFFFFF">Matthew's Loading Process: </h3>
 
-* After cleaning the data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
+* After cleaning the states data In jupyter notebook and getting the tables the way I wanted I exported them into a CSV table.
 
 * I then loaded this into SQLlite and got was able to extract the create table information to load into PGadmin.
 
