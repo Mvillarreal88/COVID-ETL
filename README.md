@@ -63,3 +63,4 @@ The third dataset provided the number of COVID-19 deaths reported by individual 
 
 <h2 style="color:#87CEEB">Conclusion</h2>
 
+Our tables and data allow us to pull many different variations to compare in relation to COVID by state. The initial data has over 50 columns, we decided to focus specifically on vaccine rates by state as well as hospitalizations. But with the ETL we have completed we can query and work with multiple different columns.
