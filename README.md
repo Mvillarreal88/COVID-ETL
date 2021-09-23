@@ -68,4 +68,4 @@ Through the Extract, Transform, and Load process we were able to get our data to
 ![Hospital](Visualizations/Hospital.PNG)
 ![Vaccine](Visualizations/Vaccine_table.PNG)
 
-The tables above illistrate States that have a vaccine rate of over 40% as well as hospital bed capacity that is less than 5,000. Through our ETL process though we have many options and comparisons to make as our dataset has over 50 columns to extract. 
+This shows States that have a vaccine rate of over 40% as well as hospital bed capacity that is less than 5,000. 
