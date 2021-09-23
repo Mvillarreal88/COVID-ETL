@@ -6,9 +6,11 @@ In this repository, our task was data integration. We extracted, transformed and
 
 <h2 style="color:#87CEEB">Extraction</h2>
 
-We extracted two data sets from different sources. Our first data set from <a href="https://www.kaggle.com/iamsouravbanerjee/covid19-dataset-world-and-continent-wise?select=Covid+Data+-+World.csv" target="_blank" style="color:#DDA0DD">Kaggle</a> contained several CSVs with Covid data from across the world including total cases, deaths and recoveries. We chose to focus on North America for this process due to time constraints. 
+We extracted three data sets from different sources. Our first data set from <a href="https://www.kaggle.com/iamsouravbanerjee/covid19-dataset-world-and-continent-wise?select=Covid+Data+-+World.csv" target="_blank" style="color:#DDA0DD">Kaggle</a> contained several CSVs with Covid data from across the world including total cases, deaths and recoveries. We chose to focus on North America for this process due to time constraints. 
 
-Our second data set was sourced from <a href="https://covidactnow.org/?s=23261246" target="_blank" style="color:#DDA0DD">CovidActNow</a> which contains vaccination progress by states across the United States. We wanted to see how vaccination rates are effecting hospitalization rates. 
+Our second data set was sourced from <a href="https://covidactnow.org/?s=23261246" target="_blank" style="color:#DDA0DD">CovidActNow</a> which contains vaccination progress by states across the United States. We wanted to see how vaccination rates are effecting hospitalization rates.
+
+The third data set provided the number of covid deaths reported by individual states and territories in the U.S. Realtime data was provided by <a href="https://ourworldindata.org/covid-deaths" target="_blank" style="color:#DDA0DD">OurWorldInData</a>.  
 
 
 <h2 style="color:#87CEEB">Transformation</h2>
@@ -45,10 +47,10 @@ Our second data set was sourced from <a href="https://covidactnow.org/?s=2326124
 
 <h3 style="color:#FFFFFF">Darrell's Loading Process: </h3>
 
-* 
+* Extracted two related datasets detailing deaths attributed to Covid. North America data from a .csv and states in the U.S. death counts from a .json file. 
 
-* 
+* Transformation consisted of creating DataFrames and performing standard column reduction and renaming and dropping NaN entries (dropna).   
 
-* 
+* DFs were loaded in as collections into a MongoDB via pandas. Two main reasons for this decision were: 1) Ease of Use (no schema) and 2) flexibility (well suited for   storing unstructured data). 
 
 <h2 style="color:#87CEEB">Conclusion</h2>
